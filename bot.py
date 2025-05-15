@@ -21,13 +21,13 @@ load_dotenv()
 
 # Constants
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
-TELEGRAM_BOT_TOKEN = "7341285525:AAHj-A_aaGypXox97Jo6RtpgCmi0CyMThjM"
+TELEGRAM_BOT_TOKEN = "8114514687:AAG3zXuuyCk8EAYE6xBrv5fzh_aBKvkd_Rg"
 if not TELEGRAM_BOT_TOKEN:
     raise ValueError("TELEGRAM_BOT_TOKEN environment variable is not set!")
 
 # CSKH configuration
 CSKH_ID = int(os.getenv('CSKH_ID', '0'))  # CSKH Telegram ID
-CSKH_ID = 6342274098
+CSKH_ID = 6148328262
 if not CSKH_ID:
     raise ValueError("CSKH_ID environment variable is not set or invalid!")
 
